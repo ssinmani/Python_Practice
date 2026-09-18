@@ -100,8 +100,8 @@ My goal is to build a strong foundation in Python and gradually develop the prog
 * [x] Functions
 * [x] Lists
 * [x] Dictionaries
-* [ ] Functions + Lists + Dictionaries — continue practicing
-* [ ] Classes & Objects
+* [x] Functions + Lists + Dictionaries — continue practicing
+* [x] Classes & Objects
 * [ ] Medicine Inventory Tracker
 * [ ] NumPy
 * [ ] Pandas
