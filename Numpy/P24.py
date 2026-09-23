@@ -24,10 +24,9 @@ print ("Count of Waiting time between 30 and 50",np.sum((waiting_time >= 30) & (
 
 #Position/Index Analysis
 m = np.sum(waiting_time > 50) / len(waiting_time) * 100
-print("Count > 50:", np.sum(waiting_time > 50))
-print("Count < 30:", np.sum(waiting_time < 30))
-print("Percentage above 50:",m)
-print("Count < 40:", np.sum(waiting_time < 40))
+print("longest waiting time:", np.argmax(waiting_time))
+print("shortest waiting time:", np.argmin(waiting_time))
+print("patient number with the longest waiting time:", np.argmax(waiting_time)+1)
 
 
 #Data Modification
