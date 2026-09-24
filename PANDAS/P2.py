@@ -9,3 +9,4 @@ data = {
 
 df = pd.DataFrame(data)
 print ("Three Columns", df [["Patient","Department","Waiting_Time"]])
+
