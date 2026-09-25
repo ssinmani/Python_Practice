@@ -7,4 +7,4 @@ data ={
 }
 
 df =pd.DataFrame(data)
-print ("Age of the patient 103",df.iloc[2,1])git 
+print ("Age of the patient 103",df.iloc[2,1])
